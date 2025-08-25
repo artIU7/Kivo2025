@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B769408B2DB38F24007BC986 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B769408A2DB38F24007BC986 /* StartViewController.swift */; };
+		B769408D2DB3901D007BC986 /* TouchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B769408C2DB3901D007BC986 /* TouchViewController.swift */; };
+		B76940902DB395B4007BC986 /* kivo_scene_prepare.scn in Resources */ = {isa = PBXBuildFile; fileRef = B769408F2DB395B4007BC986 /* kivo_scene_prepare.scn */; };
+		B76940952DB39698007BC986 /* MapsBaseViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76940942DB39698007BC986 /* MapsBaseViewLayout.swift */; };
+		B77BF10D2E4F531400724E27 /* tourist_prepare.scn in Resources */ = {isa = PBXBuildFile; fileRef = B77BF10C2E4F531400724E27 /* tourist_prepare.scn */; };
+		B77BF10F2E4F6D0800724E27 /* NetworkManager+GigaChat.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77BF10E2E4F6D0800724E27 /* NetworkManager+GigaChat.swift */; };
+		B77BF1112E4FD6CE00724E27 /* nodeEnergy.scn in Resources */ = {isa = PBXBuildFile; fileRef = B77BF1102E4FD6CE00724E27 /* nodeEnergy.scn */; };
+		B77BF1132E50007600724E27 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77BF1122E50007600724E27 /* MessageViewController.swift */; };
+		B78D279F2DB3A35600D19734 /* MapsBaseViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78D279E2DB3A35600D19734 /* MapsBaseViewStyle.swift */; };
+		B78D27A42DB3A60C00D19734 /* CLocationManager+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78D27A32DB3A60C00D19734 /* CLocationManager+Helper.swift */; };
+		B78D27A72DB3B99100D19734 /* TouchDrawGestureLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78D27A62DB3B99100D19734 /* TouchDrawGestureLayout.swift */; };
+		B78D27AE2DB3D88100D19734 /* kivo_gesture.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = B78D27AD2DB3D88100D19734 /* kivo_gesture.mlmodel */; };
+		B78D27B12DB4113300D19734 /* MapsRouteBuilderCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78D27B02DB4113300D19734 /* MapsRouteBuilderCore.swift */; };
+		B78D27B32DB4159700D19734 /* customization.json in Resources */ = {isa = PBXBuildFile; fileRef = B78D27B22DB4159600D19734 /* customization.json */; };
+		B78D27B62DB5163F00D19734 /* YOLOv3Tiny.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = B78D27B52DB5163F00D19734 /* YOLOv3Tiny.mlmodel */; };
+		B7B1191C2DB625D1001101EC /* TouchViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B1191B2DB625D1001101EC /* TouchViewController+Extension.swift */; };
+		B7B55F972DB2BFA200264500 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B55F962DB2BFA200264500 /* AppDelegate.swift */; };
+		B7B55F992DB2BFA200264500 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B55F982DB2BFA200264500 /* SceneDelegate.swift */; };
+		B7B55FA02DB2BFA800264500 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7B55F9F2DB2BFA800264500 /* Assets.xcassets */; };
+		B7F727132E52096900BCE08D /* TouchViewController+Rouring.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F727122E52096900BCE08D /* TouchViewController+Rouring.swift */; };
+		B7F727152E521B9300BCE08D /* poi.scn in Resources */ = {isa = PBXBuildFile; fileRef = B7F727142E521B9300BCE08D /* poi.scn */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B769408A2DB38F24007BC986 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		B769408C2DB3901D007BC986 /* TouchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchViewController.swift; sourceTree = "<group>"; };
+		B769408F2DB395B4007BC986 /* kivo_scene_prepare.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = kivo_scene_prepare.scn; sourceTree = "<group>"; };
+		B76940942DB39698007BC986 /* MapsBaseViewLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapsBaseViewLayout.swift; sourceTree = "<group>"; };
+		B77BF10C2E4F531400724E27 /* tourist_prepare.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = tourist_prepare.scn; sourceTree = "<group>"; };
+		B77BF10E2E4F6D0800724E27 /* NetworkManager+GigaChat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NetworkManager+GigaChat.swift"; sourceTree = "<group>"; };
+		B77BF1102E4FD6CE00724E27 /* nodeEnergy.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = nodeEnergy.scn; sourceTree = "<group>"; };
+		B77BF1122E50007600724E27 /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		B78D279E2DB3A35600D19734 /* MapsBaseViewStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapsBaseViewStyle.swift; sourceTree = "<group>"; };
+		B78D27A32DB3A60C00D19734 /* CLocationManager+Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CLocationManager+Helper.swift"; sourceTree = "<group>"; };
+		B78D27A62DB3B99100D19734 /* TouchDrawGestureLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchDrawGestureLayout.swift; sourceTree = "<group>"; };
+		B78D27AD2DB3D88100D19734 /* kivo_gesture.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = kivo_gesture.mlmodel; sourceTree = "<group>"; };
+		B78D27B02DB4113300D19734 /* MapsRouteBuilderCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapsRouteBuilderCore.swift; sourceTree = "<group>"; };
+		B78D27B22DB4159600D19734 /* customization.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = customization.json; sourceTree = "<group>"; };
+		B78D27B52DB5163F00D19734 /* YOLOv3Tiny.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = YOLOv3Tiny.mlmodel; sourceTree = "<group>"; };
+		B7B1191B2DB625D1001101EC /* TouchViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TouchViewController+Extension.swift"; sourceTree = "<group>"; };
+		B7B55F932DB2BFA200264500 /* kivo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kivo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7B55F962DB2BFA200264500 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B7B55F982DB2BFA200264500 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B7B55F9F2DB2BFA800264500 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B7B55FA42DB2BFA800264500 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7F727122E52096900BCE08D /* TouchViewController+Rouring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TouchViewController+Rouring.swift"; sourceTree = "<group>"; };
+		B7F727142E521B9300BCE08D /* poi.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = poi.scn; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B7B55F902DB2BFA200264500 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DA751D35B2FB9AD539F2669 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B769408E2DB391AA007BC986 /* AppSupport */ = {
+			isa = PBXGroup;
+			children = (
+				B7B55F962DB2BFA200264500 /* AppDelegate.swift */,
+				B7B55F982DB2BFA200264500 /* SceneDelegate.swift */,
+			);
+			path = AppSupport;
+			sourceTree = "<group>";
+		};
+		B76940932DB3968B007BC986 /* MapsBaseViewLayout */ = {
+			isa = PBXGroup;
+			children = (
+				B76940942DB39698007BC986 /* MapsBaseViewLayout.swift */,
+				B78D279E2DB3A35600D19734 /* MapsBaseViewStyle.swift */,
+			);
+			path = MapsBaseViewLayout;
+			sourceTree = "<group>";
+		};
+		B78D27A22DB3A5EE00D19734 /* CLocationManager */ = {
+			isa = PBXGroup;
+			children = (
+				B78D27A32DB3A60C00D19734 /* CLocationManager+Helper.swift */,
+			);
+			path = CLocationManager;
+			sourceTree = "<group>";
+		};
+		B78D27A52DB3B96800D19734 /* TouchDrawGestureLayout */ = {
+			isa = PBXGroup;
+			children = (
+				B78D27A82DB3BC5E00D19734 /* MLmodel's */,
+				B78D27A62DB3B99100D19734 /* TouchDrawGestureLayout.swift */,
+			);
+			path = TouchDrawGestureLayout;
+			sourceTree = "<group>";
+		};
+		B78D27A82DB3BC5E00D19734 /* MLmodel's */ = {
+			isa = PBXGroup;
+			children = (
+				B78D27AD2DB3D88100D19734 /* kivo_gesture.mlmodel */,
+			);
+			path = "MLmodel's";
+			sourceTree = "<group>";
+		};
+		B78D27AF2DB410EE00D19734 /* MapsRouteBuilderCore */ = {
+			isa = PBXGroup;
+			children = (
+				B78D27B42DB5163F00D19734 /* MLModel+Helper_Detection_Only */,
+				B78D27B02DB4113300D19734 /* MapsRouteBuilderCore.swift */,
+			);
+			path = MapsRouteBuilderCore;
+			sourceTree = "<group>";
+		};
+		B78D27B42DB5163F00D19734 /* MLModel+Helper_Detection_Only */ = {
+			isa = PBXGroup;
+			children = (
+				B78D27B52DB5163F00D19734 /* YOLOv3Tiny.mlmodel */,
+			);
+			path = "MLModel+Helper_Detection_Only";
+			sourceTree = "<group>";
+		};
+		B7B55F8A2DB2BFA200264500 = {
+			isa = PBXGroup;
+			children = (
+				B7B55F952DB2BFA200264500 /* kivo */,
+				B7B55F942DB2BFA200264500 /* Products */,
+				0DA751D35B2FB9AD539F2669 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B7B55F942DB2BFA200264500 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B7B55F932DB2BFA200264500 /* kivo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B7B55F952DB2BFA200264500 /* kivo */ = {
+			isa = PBXGroup;
+			children = (
+				B78D27B22DB4159600D19734 /* customization.json */,
+				B7B55FAB2DB38A9400264500 /* TouchViewController */,
+				B7B55FAA2DB38A8000264500 /* StartViewController */,
+				B769408E2DB391AA007BC986 /* AppSupport */,
+				B7B55F9F2DB2BFA800264500 /* Assets.xcassets */,
+				B7B55FA42DB2BFA800264500 /* Info.plist */,
+			);
+			path = kivo;
+			sourceTree = "<group>";
+		};
+		B7B55FAA2DB38A8000264500 /* StartViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B7F727142E521B9300BCE08D /* poi.scn */,
+				B77BF1102E4FD6CE00724E27 /* nodeEnergy.scn */,
+				B77BF10C2E4F531400724E27 /* tourist_prepare.scn */,
+				B769408F2DB395B4007BC986 /* kivo_scene_prepare.scn */,
+				B769408A2DB38F24007BC986 /* StartViewController.swift */,
+			);
+			path = StartViewController;
+			sourceTree = "<group>";
+		};
+		B7B55FAB2DB38A9400264500 /* TouchViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B77BF10E2E4F6D0800724E27 /* NetworkManager+GigaChat.swift */,
+				B78D27AF2DB410EE00D19734 /* MapsRouteBuilderCore */,
+				B78D27A52DB3B96800D19734 /* TouchDrawGestureLayout */,
+				B78D27A22DB3A5EE00D19734 /* CLocationManager */,
+				B76940932DB3968B007BC986 /* MapsBaseViewLayout */,
+				B769408C2DB3901D007BC986 /* TouchViewController.swift */,
+				B7B1191B2DB625D1001101EC /* TouchViewController+Extension.swift */,
+				B77BF1122E50007600724E27 /* MessageViewController.swift */,
+				B7F727122E52096900BCE08D /* TouchViewController+Rouring.swift */,
+			);
+			path = TouchViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B7B55F922DB2BFA200264500 /* kivo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7B55FA72DB2BFA800264500 /* Build configuration list for PBXNativeTarget "kivo" */;
+			buildPhases = (
+				7DEB02FA9F8E440637E6BB7A /* [CP] Check Pods Manifest.lock */,
+				B7B55F8F2DB2BFA200264500 /* Sources */,
+				B7B55F902DB2BFA200264500 /* Frameworks */,
+				B7B55F912DB2BFA200264500 /* Resources */,
+				332C9F0DDD093156452F8663 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kivo;
+			productName = mts_ai;
+			productReference = B7B55F932DB2BFA200264500 /* kivo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B7B55F8B2DB2BFA200264500 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					B7B55F922DB2BFA200264500 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = B7B55F8E2DB2BFA200264500 /* Build configuration list for PBXProject "kivo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B7B55F8A2DB2BFA200264500;
+			productRefGroup = B7B55F942DB2BFA200264500 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B7B55F922DB2BFA200264500 /* kivo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B7B55F912DB2BFA200264500 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B76940902DB395B4007BC986 /* kivo_scene_prepare.scn in Resources */,
+				B77BF10D2E4F531400724E27 /* tourist_prepare.scn in Resources */,
+				B7B55FA02DB2BFA800264500 /* Assets.xcassets in Resources */,
+				B7F727152E521B9300BCE08D /* poi.scn in Resources */,
+				B77BF1112E4FD6CE00724E27 /* nodeEnergy.scn in Resources */,
+				B78D27B32DB4159700D19734 /* customization.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		332C9F0DDD093156452F8663 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mts_ai/Pods-mts_ai-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mts_ai/Pods-mts_ai-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-mts_ai/Pods-mts_ai-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7DEB02FA9F8E440637E6BB7A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-mts_ai-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B7B55F8F2DB2BFA200264500 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7B1191C2DB625D1001101EC /* TouchViewController+Extension.swift in Sources */,
+				B7B55F972DB2BFA200264500 /* AppDelegate.swift in Sources */,
+				B78D27B62DB5163F00D19734 /* YOLOv3Tiny.mlmodel in Sources */,
+				B78D27A42DB3A60C00D19734 /* CLocationManager+Helper.swift in Sources */,
+				B76940952DB39698007BC986 /* MapsBaseViewLayout.swift in Sources */,
+				B7B55F992DB2BFA200264500 /* SceneDelegate.swift in Sources */,
+				B77BF1132E50007600724E27 /* MessageViewController.swift in Sources */,
+				B78D27A72DB3B99100D19734 /* TouchDrawGestureLayout.swift in Sources */,
+				B78D27B12DB4113300D19734 /* MapsRouteBuilderCore.swift in Sources */,
+				B769408D2DB3901D007BC986 /* TouchViewController.swift in Sources */,
+				B78D279F2DB3A35600D19734 /* MapsBaseViewStyle.swift in Sources */,
+				B78D27AE2DB3D88100D19734 /* kivo_gesture.mlmodel in Sources */,
+				B7F727132E52096900BCE08D /* TouchViewController+Rouring.swift in Sources */,
+				B769408B2DB38F24007BC986 /* StartViewController.swift in Sources */,
+				B77BF10F2E4F6D0800724E27 /* NetworkManager+GigaChat.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B7B55FA52DB2BFA800264500 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B7B55FA62DB2BFA800264500 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B7B55FA82DB2BFA800264500 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9RCKEM6H93;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = kivo/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = InclusiveTour;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Запрос на Доступ к camera !";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Запрос на геолокацию !";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Запрос на Доступ к микро!";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = YES;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = YS;
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Запрос на динамики!";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "brazil-hack.kivo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		B7B55FA92DB2BFA800264500 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9RCKEM6H93;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = kivo/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = InclusiveTour;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Запрос на Доступ к camera !";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Запрос на геолокацию !";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Запрос на Доступ к микро!";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = YES;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = YS;
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Запрос на динамики!";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "brazil-hack.kivo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B7B55F8E2DB2BFA200264500 /* Build configuration list for PBXProject "kivo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7B55FA52DB2BFA800264500 /* Debug */,
+				B7B55FA62DB2BFA800264500 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7B55FA72DB2BFA800264500 /* Build configuration list for PBXNativeTarget "kivo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7B55FA82DB2BFA800264500 /* Debug */,
+				B7B55FA92DB2BFA800264500 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B7B55F8B2DB2BFA200264500 /* Project object */;
+}

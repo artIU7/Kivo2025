@@ -1,0 +1,7 @@
+platform :ios, '15.0'
+target 'kivo' do
+   pod 'YandexMapsMobile', '4.3.2-full'
+   pod 'SnapKit', '~> 5.6.0'
+   pod 'YandexLoginSDK'
+  # Pods for kivo
+end
